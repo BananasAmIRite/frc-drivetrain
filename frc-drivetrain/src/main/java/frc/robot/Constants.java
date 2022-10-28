@@ -19,4 +19,11 @@ public final class Constants {
     public static final int FRONT_RIGHT_MOTOR; 
     public static final int MIDDLE_RIGHT_MOTOR; 
     public static final int BACK_RIGHT_MOTOR; 
+
+    public static final int DRIVER_CONTROLLER; 
+
+    public static final double kTurnFilter = 0.1; 
+    public static final double kThrottleFilter = 0.1; 
+
+    public static final double turnRate = 0.6; 
 }
